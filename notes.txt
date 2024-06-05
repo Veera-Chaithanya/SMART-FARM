@@ -1,0 +1,31 @@
+dataset -- https://www.kaggle.com/datasets/vipoooool/new-plant-diseases-dataset
+conda list
+	to check the list in conda prompt
+conda env list
+	to check list of environments
+conda create --name project python=3.6.12
+	to check required version of python and create a virtual environment 	with name project
+conda activate project 
+	activate project
+python --version
+
+python app.py
+	to execute the code
+
+requirements
+
+flask
+numpy
+pandas
+requests
+torch
+torchvision
+sklearn 
+ 
+
+after downloading the requirements execute the project 
+python -m pip install --upgrade pip
+conda create -n myenv python=3.6
+conda activate myenv
+conda install pytorch==1.7.0 cpuonly -c pytorch
+conda install -c conda-forge torch==1.7.0
